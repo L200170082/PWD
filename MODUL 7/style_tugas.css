@@ -1,0 +1,12 @@
+body{background:rgb(0, 132, 255)}
+h2{font-family:comic sans ms; background-color:pink; text-align:center}
+table{background:grey}
+.td{font-weight:bold}
+
+table, th, td{
+    border:1px solid black;
+}
+
+h3{font-family: comic sans ms;
+background-color:pink;
+text-align:center}
