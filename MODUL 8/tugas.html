@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Tugas Modul 8</title>
+        <body>
+            <h4>CEK NILAI ANDA</h4>
+        </body>
+        <script>
+            var nilai;
+
+            function lihat(){
+                nilai = document.getElementById("myinput").value;
+                if(0<=nilai && nilai<=20){
+                    document.getElementById("rf").innerHTML = "E";
+                }
+                else if(21<=nilai && nilai<=40){
+                    document.getElementById("rf").innerHTML = "D";
+                }
+                else if(41<=nilai && nilai<=60){
+                    document.getElementById("rf").innerHTML = "C";
+                }
+                else if(61<=nilai && nilai<=80){
+                    document.getElementById("rf").innerHTML = "B";
+                }
+                else if(81<=nilai && nilai<=100){
+                    document.getElementById("rf").innerHTML = "A";
+                }
+                else{
+                    document.getElementById("rf").innerHTML = "nilai yang di masukan salah";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="tugas">
+            Masukkan Nilai : <input type="text" id="myinput" size="10" maxlength="3">  
+            <input type="button" onclick="lihat();" value="cek">
+        </form> 
+        <h1 id="rf"></h1>
+    </body>
+</html>
