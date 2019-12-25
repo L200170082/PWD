@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/css" href="data.css"?>
+<Mahasiswa>
+    <ID>
+        <NIM>L200170082</NIM>
+        <Nama>Aji Prastyo</Nama>
+        <Kota>Palembang</Kota>
+    </ID>
+    <ID>
+        <NIM>L200170020</NIM>
+        <Nama>Husni</Nama>
+        <Kota>Sragen</Kota>
+    </ID>
+    <ID>
+        <NIM>L200170100</NIM>
+        <Nama>Bana</Nama>
+        <Kota>solo</Kota>
+    </ID>
+    <ID>
+        <NIM>L200170021</NIM>
+        <Nama>Dimas</Nama>
+        <Kota>Semarang</Kota>
+    </ID>
+</Mahasiswa>
